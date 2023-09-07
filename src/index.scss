@@ -1,0 +1,49 @@
+body {
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.App {
+  border: 1px solid #ccc;
+  padding: 40px;
+  width: 500px;
+  text-align: center;
+  h1 { margin-bottom: 1rem;}
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  .btn { 
+    padding: 8px 12px;
+    background: steelblue;
+    color: #fff;
+    border: none;
+  }
+  input { 
+    padding: 8px; 
+    border: 1px solid #ccc;
+  }
+}
+
+.weather-info {
+  .temp { font-size: 50px;}
+}
